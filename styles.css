@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+td{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 0.5rem;
+}
+th{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 0.5rem;
+}
+  tr:nth-child(odd){
+	background-color: #ffffff;
+}
+ tr:nth-child(even){
+	background-color: #f2f2f2 ;
+}
+
